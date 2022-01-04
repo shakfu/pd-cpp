@@ -1,0 +1,5 @@
+#N canvas 74 74 450 300 12;
+#X obj 178 98 helloworld;
+#X obj 178 54 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
+#X connect 1 0 0 0;
