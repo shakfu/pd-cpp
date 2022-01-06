@@ -14,7 +14,7 @@ To compile a puredata external with c++ on macOS Catalina:
 
 3. `class_new` call in `<name>_setup` should terminate with `A_NULL` instead of `0`.
 
-4. In the project `Makefile`, for macOS at least, add the following to `cflags`:
+4. In the project `Makefile`, for macOS Catalina at least, add the following to `cflags`:
 
 ```bash
 

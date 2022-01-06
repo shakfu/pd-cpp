@@ -7,7 +7,9 @@ typedef struct _helloworld {
     t_object x_obj;
 } t_helloworld;
 
-void helloworld_bang(t_helloworld *x) { post("Hello world !!"); }
+void helloworld_bang(t_helloworld *x) { 
+    post("Hello world !!");
+}
 
 void *helloworld_new(void) {
     t_helloworld *x = (t_helloworld *)pd_new(helloworld_class);
